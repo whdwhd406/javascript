@@ -1,3 +1,24 @@
 .hidden {
   display: none;
 }
+
+body img {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  bottom: 10px;
+  opacity: 0.4;
+}
+#login-form {
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#login-form input:first-child {
+  background: transparent;
+  border: none;
+  padding: 6px;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
